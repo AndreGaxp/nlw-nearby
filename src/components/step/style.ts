@@ -15,7 +15,8 @@ export const s = StyleSheet.create({
   title:{
     fontSize: 16,
     fontFamily: fontFamily.semiBold,
-    color: colors.gray[600]
+    color: colors.gray[600],
+    marginStart: 8,
   },
 
   description:{
@@ -23,6 +24,6 @@ export const s = StyleSheet.create({
     fontFamily: fontFamily.regular,
     color: colors.gray[500],
     marginTop: 3,
-    textAlign: 'left'
+    marginStart: 8
   }
 })
