@@ -23,5 +23,3 @@ export const s = StyleSheet.create({
     marginBottom: 16,
   }
 })
-
-// PAREI NA AULA 2 01:12:47.
