@@ -11,9 +11,10 @@ export const s = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
-    paddingHorizontal: 12,
+    paddingHorizontal: 5,
     gap: 10,
-
+    marginTop: 6,
+    marginBottom: 6,
   },
   name: {
     fontSize: 14,
@@ -23,7 +24,7 @@ export const s = StyleSheet.create({
 
   containerSelected:{
     backgroundColor: colors.green.base,
-    borderWidth: 0,
+    borderColor: colors.green.base,
   },
 
   nameSelected:{
