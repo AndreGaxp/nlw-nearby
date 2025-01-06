@@ -101,7 +101,7 @@ export default function Home() {
                 <View>
                   <Text
                     style={{
-                      fontSize: 14,
+                      fontSize: 15,
                       color: colors.gray[600],
                       fontFamily: fontFamily.medium
                     }}
